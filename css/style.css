@@ -1,0 +1,616 @@
+@charset "utf-8";
+
+/* common */
+html { overflow-x: hidden;}
+#main { max-width:1920px; width:100%;}
+.header img { width: 100%;}
+.sec_inner { max-width: 1440px; margin:0 auto; }
+
+/* section_01 (메인 kv)  */
+.section_01 { background:url(../images/sec_01_kv_pc.png) no-repeat; background-size: cover; height:720px; }
+.section_01 .sec_main_kv_txt_wrap { padding: 223px 0 0 290px; }
+.section_01 .sec_main_kv_txt_wrap h2 { font-size:28px; font-weight:700; letter-spacing: -0px; }
+.section_01 .sec_img_wrap { padding:20px 0 34px; width: 469px; }
+.section_01 .sec_img_wrap img { width:100%; }
+.section_01 .sec_reservation_txt { padding:0 0 40px; font-size:20px; font-weight: 700; letter-spacing: -0px; }
+.section_01 .sec_duration_txt { font-size:18px; font-weight: 700; letter-spacing: -0px; }
+
+/* section_02 (삼성닷컴 단독 예약 판매 혜택) */
+.section_02 { padding:88px 0 70px; }
+.section_02 .sec_title_txt_wrap { text-align: center; }
+.section_02 .sec_title_txt_wrap h2 { font-size:56px; font-weight:700; letter-spacing: -1px;}
+.section_02 .sec_title_txt_wrap h2 strong { color:#a48440; display:inline-block; }
+.section_02 .sec_delivery_txt { display:flex; justify-content: center; align-items: center; padding:30px 0 40px; }
+.section_02 .sec_delivery_txt > span {  display:inline-block; width:2px; height:13px; background:rgba(0,0,0,0.2); margin: 0 20px; }
+.section_02 .sec_delivery_txt li { font-size:18px; font-weight: 700; }
+.section_02 .sec_two_box_wrap { width:1280px; margin:0 auto; }
+.section_02 .sec_samsung_dotcom_box {  border-radius:12px; background:#3c4783; display:flex; justify-content: space-between; position:relative;}
+.section_02 .sec_samsung_dotcom_box:before { content:''; display:block; position:absolute; top:-20px; left:46px; background:url(../images/sec_02_dotcom_badge_pc.png) no-repeat; width:71px; height:74px;}
+.section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap { padding:83px 0 59px 60px;}
+.section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap .sec_laundry_txt { font-size:19px; font-weight:700; color:rgba(255,255,255,0.6); padding:0 0 21px; letter-spacing: -0.5px; }
+.section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap p  { font-size:32px; color:#fff; font-weight:700; letter-spacing: -0.5px; }
+.section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap .sec_kitty_logo { margin:10px 0 9px; width:362px; }
+.section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap .link_area { padding:47px 0 0; }
+.section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap .link_area a { font-size:17px; color:#fff; letter-spacing: -0.5px; position:relative; font-weight:700; }
+.section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap .link_area a:before { content:''; display:block; width:14px; height:14px; background:url(../images/sec_02_online_arrow_pc.png) no-repeat; position:absolute; bottom:3px; right:-20px; }
+.section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap .link_area a:after { content:''; display:block; width:134px; height:2px; background:#fff; position:absolute; bottom:-8px; left:0; }
+.section_02 .sec_samsung_dotcom_box .slide_right_area_wrap { width:700px; margin: 15px 15px 15px 0; border-radius:0 8px 8px 0; position:relative; }
+.section_02 .sec_samsung_dotcom_box .slide_right_area_wrap .swiper-pagination { width:104px; height:22px; background:rgba(0,0,0,0.5); border-radius:11px; position:absolute; bottom:10px; left:50%; transform:translateX(-50%); }
+.section_02 .sec_samsung_dotcom_box .slide_right_area_wrap .swiper-pagination .swiper-pagination-bullet { width:8px; height:8px; background:rgba(0,0,0,0.3); margin:7px 10px 0 0 }
+.section_02 .sec_samsung_dotcom_box .slide_right_area_wrap .swiper-pagination .swiper-pagination-bullet:last-child { margin-right:0; }
+.section_02 .sec_samsung_dotcom_box .slide_right_area_wrap .swiper-pagination .swiper-pagination-bullet-active { background:#fff !important; } 
+.section_02 .sec_benefit_box { padding:28px 0 0; display:flex; justify-content: space-between ;}
+.section_02 .sec_benefit_box li { width:408px; }
+.section_02 .sec_benefit_box li .sec_benefit_desc_wrap { padding:20px 0 0 30px; font-weight:700; }
+.section_02 .sec_benefit_box li .sec_benefit_desc_wrap .if_txt { font-size:18px; color:rgba(0,0,0,0.6); letter-spacing: -0.5px; font-weight:700; }
+.section_02 .sec_benefit_box li .sec_benefit_desc_wrap strong { font-size: 24px; display:inline-block; padding:14px 0 19px; letter-spacing: -0.5px; }
+.section_02 .sec_benefit_box li .sec_benefit_desc_wrap .link_area { display:inline-block; }
+.section_02 .sec_benefit_box li .sec_benefit_desc_wrap .link_area a { font-size:16px; letter-spacing: -0.5px; }
+.section_02 .sec_benefit_box li .sec_benefit_desc_wrap .link_area a:after { content:''; display:block; background:rgba(0,0,0,0.4); width:100%; height:1px;  margin:4px 0 0; }
+.section_02 .sec_benefit_box li .sec_benefit_desc_wrap .refer_txt { font-size:16px; color:rgba(0,0,0,0.6); letter-spacing: -0.5px; }
+.section_02 .sec_benefit_box li.item_03 .sec_benefit_desc_wrap .refer_txt { padding:0 0 19px; }
+.section_02 .sec_two_box_wrap .link_caution_area { text-align: center; padding:20px 0 0;}
+.section_02 .sec_two_box_wrap .link_caution_area a { font-size:16px; font-weight:700; letter-spacing: -0.5px; position:relative;}
+.section_02 .sec_two_box_wrap .link_caution_area a:before {content:''; display:block; width:9px; height:5px; background:url(../images/sec_02_caution_arrow_pc.png) no-repeat; position:absolute; top: 8px; right: -23px; }
+.section_02 .sec_two_box_wrap .link_caution_area a:after { content:''; display:inline-block; background:rgba(0,0,0,0.4); width:136px; height:1px; position:absolute; bottom:-5px; left:0; }
+
+/* section_03 (삼성그랑데를 만나보세요) */
+.section_03 { background:url(../images/sec_03_bg_pc.png) no-repeat; background-size: cover; }
+.section_03 .sec_title_txt_wrap { padding:117px 0 0; text-align: center; }
+.section_03 .sec_title_txt_wrap h2 { font-size:24px; font-weight:700; }
+.section_03 .sec_title_txt_wrap .sec_img_wrap { width:613px; display:inline-block; padding:22px 0 76px; }
+.section_03 .sec_washing_machine_info_wrap { display:flex; justify-content: space-between; padding: 0 36px; position:relative; }
+.section_03 .sec_washing_machine_info_wrap:before { content:''; display:block; width:653px; height:693px; background:url(../images/sec_03_black_laundry_pc.png) no-repeat; position:absolute; top:0; left:440px; }
+.section_03 .sec_washing_machine_info_wrap:after { content:''; display:block; width:653px; height:693px; background:url(../images/sec_03_white_laundry_pc.png) no-repeat; position:absolute; top:0; right:42px; }
+.section_03 .sec_washing_machine_info_wrap .sec_washing_machine_box { width:350px; background:#fff; padding:37px 0 0; }
+.section_03 .sec_washing_machine_info_wrap .sec_left_washing_machine_info_box { border-radius:0 0 16px 16px; position:relative; }
+.section_03 .sec_washing_machine_info_wrap .sec_left_washing_machine_info_box:before { content:''; display:block; width:112px; height:36px; background:url(../images/sec_03_dotcom_badge_pc.png) no-repeat; position:absolute; top:-10px; left:25px; }
+.section_03 .sec_washing_machine_info_wrap .sec_left_washing_machine_info_box:after { content:''; display:block; width:26px; height:23px; background:url(../images/sec_03_left_arrow_bg_pc.png) no-repeat; position:absolute; top:0; right:-26px; }
+.section_03 .sec_washing_machine_info_wrap .sec_right_washing_machine_info_box { border-radius:0 16px 16px 16px; position:relative; z-index: 1; }
+.section_03 .sec_washing_machine_info_wrap .sec_right_washing_machine_info_box:after { content:''; display:block; width:26px; height:23px; background:url(../images/sec_03_right_arrow_bg_pc.png) no-repeat; position:absolute; top:0; left:-26px; }
+.section_03 .sec_washing_machine_box .sec_model_title { font-size:24px; text-align: center; line-height: 1.25; font-weight:700; letter-spacing: -0.5px; }
+.section_03 .sec_washing_machine_box .sec_model_code { font-size:15px; color:#888; letter-spacing: -0.25px; text-align:center; padding: 10px 0 23px; }
+.section_03 .sec_washing_machine_box .sec_colorchip_select { display:flex; justify-content: space-between; margin:0 84px 0 126px; }
+.section_03 .sec_washing_machine_box .sec_colorchip_select button { font-size:15px; letter-spacing: -0.5px; padding:0; position:relative; }
+.section_03 .sec_washing_machine_info_wrap .sec_right_washing_machine_info_box .sec_colorchip_select { margin:0 95px 0 140px; }
+.section_03 .sec_washing_machine_box .sec_colorchip_select button.active:before { content:''; display:block; width:34px; height:34px; background:#fff; border-radius:100%; position:absolute; top:-7px; left:-44px; border: 1px solid #ccc; box-sizing: border-box; }
+.section_03 .sec_washing_machine_box .sec_colorchip_select button.active:after { content:''; display:block; width:20px; height:20px; background:#131315; border-radius:100%; position:absolute; top:0; left:-37px; }
+.section_03 .sec_washing_machine_box .sec_colorchip_select .gray_chip.active:after { background:#d2cec2; }
+.section_03 .sec_washing_machine_box .sec_colorchip_select .second_chip_btn:before { content:''; display:block; width:20px; height:20px; background:#d2cec2; border-radius:100%; position:absolute; top:0; left:-27px; }
+.section_03 .sec_washing_machine_box .sec_colorchip_select .second_chip_btn.black_chip:before { background:#000; left:-24px; }
+.section_03 .sec_washing_machine_box .sec_kit_select { text-align: center; padding: 30px 0; }
+.section_03 .sec_washing_machine_box .sec_kit_select button { width:110px; height:33px; font-size:15px; letter-spacing: -1px; border-radius:5px; }
+.section_03 .sec_washing_machine_box .sec_kit_select button.kit_btn_txt { background:#000; color:#fff; border:1px solid #000; margin:0 10px 0 0; font-weight: 700; }
+.section_03 .sec_washing_machine_box .sec_kit_select button.contain_btn_txt { background:#fff; color:#666; border:1px solid #ccc;}
+.section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap { padding:0 25px; }
+.section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap li { display:flex; justify-content: space-between; }
+.section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap li:nth-child(2) { padding:11px 0 14px; }
+.section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap li.dotcom_sell_desc_list { color:#999; font-weight:700; }
+.section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap li .sell_desc_text { font-size:15px;  }
+.section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap li .price_txt { font-size:18px; }
+.section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap li strong { color:#000; }
+.section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap li .sell_emphasis_text { font-size:15px; letter-spacing: -0.5px; }
+.section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap li .price_emphasis_txt { font-size:18px; }
+.section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap { background:#eee; border-radius:6px; margin:0 15px; padding: 15px 15px 12px; }
+.section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap li { display:flex; justify-content: space-between; align-items: baseline; margin:0 0 7px; }
+.section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap li p { color:#999; font-weight:700; }
+.section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap li .sell_desc_text { font-size:15px; letter-spacing: -0.5px; }
+.section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap li .price_txt { font-size:18px; }
+.section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap li .sell_emphasis_text { font-size:18px; letter-spacing: -0.5px; }
+.section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap li .price_emphasis_txt { font-size:28px; display: flex; align-items: baseline; }
+.section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap li .price_emphasis_txt span { font-size:18px; letter-spacing: 0.5px; }
+.section_03 .sec_washing_machine_box .sec_detail_btn_wrap { padding:33px 0 36px; display:flex; justify-content: space-evenly; align-items: center; }
+.section_03 .sec_washing_machine_box .sec_detail_btn_wrap a { font-size:18px; letter-spacing: -0.5px; position:relative; }
+.section_03 .sec_washing_machine_box .sec_detail_btn_wrap a:before { content:''; display:inline-block; width:74px; height:1px; background:rgba(0,0,0,0.5); position:absolute; bottom:-4px; left:0; }
+.section_03 .sec_washing_machine_box .sec_detail_btn_wrap button { width:160px; height:41px; font-size:18px; font-weight:700; background:#000; color:#fff; letter-spacing: -0.25px; border-radius:20.5px; }
+.section_03 .sec_spec_select_btn_wrap { padding:178px 0 40px; text-align: center; }
+.section_03 .sec_spec_select_btn_wrap a { display:inline-block; font-size:16px; font-weight:700; letter-spacing: -0.5px; position:relative; margin-right:90px; }
+.section_03 .sec_spec_select_btn_wrap a:nth-child(3) { margin-right:0; }
+.section_03 .sec_spec_select_btn_wrap a:before { content:''; display:block; width:9px; height:5px; background:url(../images/sec_03_under_arrow_pc.png) no-repeat; position:absolute; top:4px; right:-20px; }
+.section_03 .sec_spec_select_btn_wrap a:after { content:''; display:block; width:214px; height:2px; background:#000; position:absolute; bottom:-5px; left:0; }
+
+/* section_04 (삼성그랑데와 함께하는 슬기로운 집콕 생활) */
+.section_04 { padding:120px 0 0; }
+.section_04 .sec_title_txt_wrap .sec_logo_img_wrap { width:946px; margin:0 auto; }
+.section_04 .sec_04_slide_wrap { padding:0 0 190px; }
+.section_04 .sec_04_slide_wrap .slide_area .slide_item.swiper-slide-prev { overflow:hidden; }
+.section_04 .sec_04_slide_wrap .slide_area .slide_item.swiper-slide-next { visibility:hidden; }
+.section_04 .slide_item_01 { padding-top:80px; }
+.section_04 .slide_item_01 .sec_flexible_content { display:flex; justify-content: center; }
+.section_04 .slide_item_01 .sec_length_box { width:500px; position:relative; margin:150px 210px 0 220px; }
+.section_04 .slide_item_01 .sec_length_box:before { content:''; display:block; width:114px; height:500px; background:url(../images/sec_04_slide_01_01_pc.png) no-repeat; position:absolute; top:-160px; left:-460px; }
+.section_04 .slide_item_01 .sec_length_box .main_txt { font-family:Samsung Sharp Sans,arial,sans-serif; font-size:120px; position:absolute; top:-70px; left:-145px; }
+.section_04 .slide_item_01 .sec_length_box .sub_txt { font-size:42px; letter-spacing: -0.5px; position:absolute; bottom:85px; right:-162px; line-height: 1.2;}
+.section_04 .slide_item_01 .sec_width_box { width:510px; position:relative; }
+.section_04 .slide_item_01 .sec_width_box:after { content:''; display:block; width:240px; height:310px; background:url(../images/sec_04_slide_01_04_pc.png) no-repeat; position:absolute; bottom:0; right:-240px; }
+.section_04 .slide_item_01 .sec_width_box .sec_img_wrap { margin-bottom:90px; }
+.section_04 .slide_item_01 .sec_width_box p { font-size:18px; letter-spacing: -0.5px; line-height:1.6; }
+.section_04 .slide_item_02 .sec_care_content { padding:160px 0 0; position:relative; }
+.section_04 .slide_item_02 .sec_care_content:before { content:''; display:block; width:1759px; height:380px; background:url(../images/sec_04_slide_02_bg_pc.png) no-repeat; position:absolute; top:140px; left:-57px; z-index:4}
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap { display:flex; justify-content: center; padding:60px 0 96px; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box { width:502px; position: relative; background: #d1f5ff; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box:before { content: ""; position: absolute; right: -84px; bottom: 0; width: 0; height: 0; border-left: 84px solid #d1f5ff; border-top: 130px solid transparent; border-bottom: 130px solid transparent; z-index: 2; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process { display:flex; justify-content: space-between; padding:115px 0 45px; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process:before { content:''; display:block; width:145px; height:35px; background:url(../images/sec_04_slide_02_blue_logo_pc.png) no-repeat; position:absolute; top:-20px; left:203px; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process li { text-align: center; letter-spacing: -0.5px; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process li strong { font-size:22px; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process li p { font-size:15px; margin-top:20px; line-height: 1.3; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process .wash_input { padding-left:58px; position: relative; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process .wash_input:before { content:''; display:block; width:41px; height:52px; background:url(../images/sec_04_slide_02_icon_01_pc.png) no-repeat; position:absolute; top:-72px; left:75px; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process .wash_laundry_rinse { position:relative; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process .wash_laundry_rinse strong:before { content:''; display:block; position:absolute; top:0; lefT:0; width:51px; height:38px; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process .wash_laundry_rinse strong:nth-child(1):before { background:url(../images/sec_04_slide_02_icon_02_pc.png) no-repeat; top:-63px; left:5px; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process .wash_laundry_rinse strong:nth-child(2) { margin-left: 48px; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process .wash_laundry_rinse strong:nth-child(2):before { background:url(../images/sec_04_slide_02_icon_03_pc.png) no-repeat; top:-63px; left:90px; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process .wash_dehydration { position:relative; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process .wash_dehydration:before { content:''; display:block; width:49px; height:43px; background:url(../images/sec_04_slide_02_icon_04_pc.png) no-repeat; position:absolute; top:-63px; left:30px; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .dryer_beige_box { width: 232px; position: relative; background: #fff5df; margin-left: 6px; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .dryer_beige_box:before { content: ""; position: absolute; left: 0; bottom: 0; width: 0; height: 0; border-left: 84px solid #fff; border-top: 130px solid transparent; border-bottom: 130px solid transparent;; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .dryer_beige_box:after { content: ""; position: absolute; right: -84px; bottom: 0; width: 0; height: 0; border-left: 84px solid #fff5df; border-top: 130px solid transparent; border-bottom: 130px solid transparent; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .dryer_beige_box .wash_process { padding: 115px 0 0 96px; text-align: center; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .dryer_beige_box .wash_process:before { content:''; display:block; width:145px; height:35px; background:url(../images/sec_04_slide_02_beige_logo_pc.png) no-repeat; position:absolute; top:-20px; right:-5px; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .dryer_beige_box .wash_process li strong { font-size:22px; position:relative; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .dryer_beige_box .wash_process li strong:before { content:''; display:block; width:48px; height:50px; background:url(../images/sec_04_slide_02_icon_05_pc.png) no-repeat; position:absolute; top:-63px; left:-2px; }
+.section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .dryer_beige_box .wash_process li p { margin-top:20px; font-size: 15px; letter-spacing: -0.5px; }
+.section_04 .slide_item_02 .sec_care_content .sec_clothing_care_desc { text-align: center; }
+.section_04 .slide_item_02 .sec_care_content .sec_clothing_care_desc h4 { font-size:42px; letter-spacing: -0.5px; padding-bottom: 40px; }
+.section_04 .slide_item_02 .sec_care_content .sec_clothing_care_desc p { font-size:18px; letter-spacing: -0.5px; line-height: 1.2; }
+.section_04 .slide_item_03 .sec_safe_clean_content { display:flex; justify-content: flex-start; padding:118px 100px 0 170px; position: relative; }
+.section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_left { padding:290px 120px 0 0; white-space: nowrap; }
+.section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_left strong { font-family:Samsung Sharp Sans,arial,sans-serif; font-size:160px; position:absolute; top:180px; left:-24px;}
+.section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_left h3 { font-size:42px; letter-spacing: -0.5px; margin:0 0 52px; }
+.section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_left p { font-size:18px; letter-spacing: -0.5px; line-height: 1.6; }
+.section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order { display:flex;}
+.section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order li { width:350px; height:587px; padding:30px 20px; box-sizing: border-box; text-align: center; }
+.section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order li h4 { font-size:24px; letter-spacing: -0.5px; }
+.section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order li > p { font-size:18px; letter-spacing: -0.5px; line-height:1.3; padding: 15px 0 23px; }
+.section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_01 { background:#f3ebdd; margin-right:20px; }
+.section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_01 .clothing_clean_img_top .img_wrap { padding:0 0 15px; }
+.section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_01 .clothing_clean_img_top p { padding:12px 0 20px; }
+.section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_01 .clothing_clean_img_bottom .img_wrap { padding:0 0 15px; }
+.section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_01 strong { font-size:18px; letter-spacing: -0.5px; }
+.section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_01 p { font-size:13px; letter-spacing: -0.5px; }
+.section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_02 { background:#cde0f3; margin-right:20px; }
+.section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_02 .device_clean_img_top { padding:0 0 16px; }
+.section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_03 { background:#d1e9ea; }
+.section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_03 .space_clean_img_area { padding:0 0 16px; }
+.section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_03 strong { font-size:18px; letter-spacing: -0.5px; }
+.section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_03 p { font-size:13px; letter-spacing: -0.5px; }
+.section_04 .swiper-button-prev { top:840px; left:31.2500vw; width:15px; height:26px; }
+.section_04 .swiper-button-prev:after { font-size:15px; color:#000;  }
+.section_04 .swiper-button-prev.swiper-button-disabled { opacity: 0.5; }
+.section_04 .swiper-button-next { top:840px; left:66.6667vw; width:15px; height:26px; }
+.section_04 .swiper-button-next:after { font-size:15px; color:#000; }
+.section_04 .swiper-button-next.swiper-button-disabled { opacity: 0.5; }
+.section_04 .swiper-pagination { bottom:86px; }
+.section_04 .swiper-pagination .swiper-pagination-bullet { width:auto; height:auto; display:inline-block; background:transparent; font-size:18px; font-weight:700; letter-spacing: -0.5px; color:#000; margin-right:46px; opacity:1; position: relative;}
+.section_04 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active { color:#a48440; }
+.section_04 .swiper-pagination .swiper-pagination-bullet:after { content:''; position:absolute; bottom:-12px; left:50%; width:0%; height:3px; background:#a48440; }
+.section_04 .swiper-pagination .swiper-pagination-bullet:hover { color:#a48440; transition:all 0.3s; }
+.section_04 .swiper-pagination .swiper-pagination-bullet:hover:after { left:0; width:100%;  transition:all 0.3s; }
+.section_04 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active:after { color:#a48440; display:block; left:0; width:100%; transition:all 0.3s; }
+
+/* section_05 (30만 포인트로 살 수 있는 제품) */
+.section_05 { background:#21427e; padding:105px 0 94px; }
+.section_05 .sec_title_txt_wrap { text-align: center; font-weight:700; }
+.section_05 .sec_title_txt_wrap p { font-size:22px; color:#fff; letter-spacing: -0.5px; }
+.section_05 .sec_title_txt_wrap h2 { font-size:56px; letter-spacing: -0.5px; color:#fff; padding: 20px 0 50px; }
+.section_05 .sec_title_txt_wrap h2 strong { display:inline-block; color:#d6b877;}
+.section_05 .sec_05_swiperslide_add_wrap {position:relative; }
+.section_05 .sec_05_slide_wrap { width:1280px; }
+.section_05 .sec_inner .swiper-button-prev { transform:translateY(-50%); left:0; width:24px; height:47px; }
+.section_05 .sec_inner .swiper-button-prev:After { color:#dde2eb; }
+.section_05 .sec_inner .swiper-button-prev.swiper-button-disabled { opacity:0.3; }
+.section_05 .sec_inner .swiper-button-next { transform:translateY(-50%); right:0; width:24px; height:47px; }
+.section_05 .sec_inner .swiper-button-next:After { color:#dde2eb; }
+
+/* section_06 (BESPOKE로 만나보세요) */
+.section_06 { padding:108px 0 148px; position: relative; }
+.section_06 .sec_title_txt_wrap { font-weight:700; letter-spacing: -0.5px; text-align: center; }
+.section_06 .sec_title_txt_wrap p { font-size:22px; }
+.section_06 .sec_title_txt_wrap h2 { font-size:56px; padding:22px 0 40px; }
+.section_06 .sec_06_slide_wrap .swiper-button-prev { top:407px; left:20px; width:60px; height:60px; background:url(../images/sec_06_arrow_prev_pc.png) no-repeat; }
+.section_06 .sec_06_slide_wrap .swiper-button-prev:after { font-size:0; }
+.section_06 .sec_06_slide_wrap .swiper-button-next { top:407px; right:20px; width:60px; height:60px; background:url(../images/sec_06_arrow_next_pc.png) no-repeat; }
+.section_06 .sec_06_slide_wrap .swiper-button-next:after { font-size:0; }
+.section_06 .swiper-pagination { bottom:110px; }
+.section_06 .swiper-pagination .swiper-pagination-bullet { width:80px; height:2px; background:#b2b2b2; border-radius:0; display:inline-block; margin:0; }
+.section_06 .swiper-pagination .swiper-pagination-bullet:nth-child(1) { margin-right:16px;}
+.section_06 .swiper-pagination .swiper-pagination-bullet-active { background:#000; }
+
+/* footer */
+.footer { background:#000; padding:70px 0; }
+.footer .sec_inner { display:flex; padding-left: 80px; }
+.footer .sec_inner .left_area { margin: 0 160px 0 80px; }
+.footer .left_area p { font-size:18px; color:#fff; letter-spacing: -0.25px; }
+.footer .right_area .right_area_txt li { color:#999; font-size:18px; position:relative; }
+.footer .right_area .right_area_txt li { padding:0 0 16px 15px; }
+.footer .right_area .right_area_txt li:last-child { padding-bottom:0; }
+.footer .right_area .right_area_txt li:before { content:''; display:block; width:5px; height:5px; border-radius:100%; background:rgba(255,255,255,0.5); position:absolute; top:5px; lefT:0; }
+
+@media screen and ( min-width:769px ) and ( max-width:1440px ) {
+
+  /* section_01 (메인 kv)  */
+  .section_01 { height:50.0000vw; }
+  .section_01 .sec_main_kv_txt_wrap { padding: 15.4861vw 0 0 20.1389vw; }
+  .section_01 .sec_main_kv_txt_wrap h2 { font-size:1.9444vw; letter-spacing: -0.0000vw; }
+  .section_01 .sec_img_wrap { padding:1.3889vw 0 2.3611vw; width: 32.5694vw; }
+  .section_01 .sec_reservation_txt { padding:0 0 2.7778vw; font-size:1.3889vw; letter-spacing: -0.0000vw; }
+  .section_01 .sec_duration_txt { font-size:1.2500vw; letter-spacing: -0.0000vw; }
+
+  /* section_02 (삼성닷컴 단독 예약 판매 혜택) */
+  .section_02 { padding:6.1111vw 0 4.8611vw; }
+  .section_02 .sec_title_txt_wrap h2 { font-size:3.8889vw; letter-spacing: -0.0694vw;}
+  .section_02 .sec_delivery_txt { padding:2.0833vw 0 2.7778vw; }
+  .section_02 .sec_delivery_txt > span { width:0.1389vw; height:0.9028vw; margin: 0 1.3889vw; }
+  .section_02 .sec_delivery_txt li { font-size:1.2500vw; }
+  .section_02 .sec_two_box_wrap { width:88.8889vw; }
+  .section_02 .sec_samsung_dotcom_box { border-radius:0.8333vw;}
+  .section_02 .sec_samsung_dotcom_box:before { top:-1.3889vw; left:3.1944vw; background-size:cover; width:4.9306vw; height:5.1389vw;}
+  .section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap { padding:5.7639vw 0 4.0972vw 4.1667vw;}
+  .section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap .sec_laundry_txt { font-size:1.3194vw; padding:0 0 1.4583vw; letter-spacing: -0.0347vw; }
+  .section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap p  { font-size:2.2222vw; color:#fff; letter-spacing: -0.0347vw; }
+  .section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap .sec_kitty_logo { margin:0.6944vw 0 0.6250vw; width:25.1389vw; }
+  .section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap .link_area { padding:3.2639vw 0 0; }
+  .section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap .link_area a { font-size:1.1806vw; letter-spacing: -0.0347vw; }
+  .section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap .link_area a:before { width:0.9722vw; height:0.9722vw; background-size:cover; bottom:0.2083vw; right:-1.3889vw; }
+  .section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap .link_area a:after { width:9.3056vw; height:0.1389vw; bottom:-0.5556vw; left:0; }
+  .section_02 .sec_samsung_dotcom_box .slide_right_area_wrap { width:48.6111vw; margin: 1.0417vw 1.0417vw 1.0417vw 0; border-radius:0 0.5556vw 0.5556vw 0; }
+  .section_02 .sec_samsung_dotcom_box .slide_right_area_wrap .swiper-pagination { width:7.2222vw; height:1.5278vw; border-radius:0.7639vw; bottom:0.6944vw; left:50%; transform:translateX(-50%); }
+  .section_02 .sec_samsung_dotcom_box .slide_right_area_wrap .swiper-pagination .swiper-pagination-bullet { width:0.5556vw; height:0.5556vw; background:rgba(0,0,0,0.3); margin:0.4861vw 0.6944vw 0.4167vw 0; }
+  .section_02 .sec_benefit_box { padding:1.9444vw 0 0;}
+  .section_02 .sec_benefit_box li { width:28.3333vw; }
+  .section_02 .sec_benefit_box li .sec_benefit_desc_wrap { padding:1.3889vw 0 0 2.0833vw; font-weight:700; }
+  .section_02 .sec_benefit_box li .sec_benefit_desc_wrap .if_txt { font-size:1.2500vw; ; letter-spacing: -0.0347vw; }
+  .section_02 .sec_benefit_box li .sec_benefit_desc_wrap strong { font-size: 1.6667vw; padding:0.9722vw 0 1.3194vw; letter-spacing: -0.0347vw; }
+  .section_02 .sec_benefit_box li .sec_benefit_desc_wrap .link_area a { font-size:1.1111vw; letter-spacing: -0.0347vw; }
+  .section_02 .sec_benefit_box li .sec_benefit_desc_wrap .link_area a:after { width:100%; height:0.0694vw;  margin:0.2778vw 0 0; }
+  .section_02 .sec_benefit_box li .sec_benefit_desc_wrap .refer_txt { font-size:1.1111vw; }
+  .section_02 .sec_benefit_box li.item_03 .sec_benefit_desc_wrap .refer_txt { padding:0 0 1.3194vw; }
+  .section_02 .sec_two_box_wrap .link_caution_area { padding:1.3889vw 0 0;}
+  .section_02 .sec_two_box_wrap .link_caution_area a { font-size:1.1111vw;  letter-spacing: -0.0347vw; }
+  .section_02 .sec_two_box_wrap .link_caution_area a:before { width:0.6250vw; height:0.3472vw; background-size:cover; top: 0.5556vw; right: -1.5972vw; }
+  .section_02 .sec_two_box_wrap .link_caution_area a:after { width:9.4444vw; height:0.0694vw; bottom:-0.3472vw; left:0; }
+
+  /* section_03 (삼성그랑데를 만나보세요) */
+  .section_03 { height:75.6944vw}
+  .section_03 .sec_title_txt_wrap { padding:8.1250vw 0 0; }
+  .section_03 .sec_title_txt_wrap h2 { font-size:1.6667vw; }
+  .section_03 .sec_title_txt_wrap .sec_img_wrap { width:42.5694vw; padding:1.5278vw 0 5.2778vw; }
+  .section_03 .sec_washing_machine_info_wrap { padding: 0 2.5000vw; }
+  .section_03 .sec_washing_machine_info_wrap:before { width:45.3472vw; height:48.1250vw; background:url(../images/sec_03_black_laundry_pc.png) no-repeat; background-size: cover; top:0; left:30.5556vw; }
+  .section_03 .sec_washing_machine_info_wrap:after { width:45.3472vw; height:48.1250vw; background:url(../images/sec_03_white_laundry_pc.png) no-repeat; background-size: cover; top:0; right:2.9167vw; }
+  .section_03 .sec_washing_machine_info_wrap .sec_washing_machine_box { width:24.3056vw; padding:2.5694vw 0 0; }
+  .section_03 .sec_washing_machine_info_wrap .sec_left_washing_machine_info_box { border-radius:0 0 1.1111vw 1.1111vw; }
+  .section_03 .sec_washing_machine_info_wrap .sec_left_washing_machine_info_box:before { width:7.7778vw; height:2.5000vw; background:url(../images/sec_03_dotcom_badge_pc.png) no-repeat; background-size:cover; top:-0.6944vw; left:1.7361vw; }
+  .section_03 .sec_washing_machine_info_wrap .sec_left_washing_machine_info_box:after { width:1.8056vw; height:1.5972vw; background:url(../images/sec_03_left_arrow_bg_pc.png) no-repeat; background-size:cover; top:0; right:-1.8056vw; }
+  .section_03 .sec_washing_machine_info_wrap .sec_right_washing_machine_info_box { border-radius:0 1.1111vw 1.1111vw 1.1111vw; }
+  .section_03 .sec_washing_machine_info_wrap .sec_right_washing_machine_info_box:after { width:1.8056vw; height:1.5972vw; background:url(../images/sec_03_right_arrow_bg_pc.png) no-repeat; background-size:cover;  top:0; left:-1.8056vw; }
+  .section_03 .sec_washing_machine_box .sec_model_title { font-size:1.6667vw; line-height: 1.25; letter-spacing: -0.0347vw; }
+  .section_03 .sec_washing_machine_box .sec_model_code { font-size:1.0417vw; letter-spacing: -0.0174vw; padding: 0.6944vw 0 1.5972vw; }
+  .section_03 .sec_washing_machine_box .sec_colorchip_select { margin:0 5.8333vw 0 8.7500vw; }
+  .section_03 .sec_washing_machine_box .sec_colorchip_select button { font-size:1.0417vw; letter-spacing: -0.0347vw; }
+  .section_03 .sec_washing_machine_info_wrap .sec_right_washing_machine_info_box .sec_colorchip_select { margin:0 6.5972vw 0 9.7222vw; }
+  .section_03 .sec_washing_machine_box .sec_colorchip_select button.active:before { width:2.3611vw; height:2.3611vw; top:-0.4861vw; left:-3.0556vw; border: 0.0694vw solid #ccc; box-sizing: border-box; }
+  .section_03 .sec_washing_machine_box .sec_colorchip_select button.active:after { width:1.3889vw; height:1.3889vw; top:0; left:-2.5694vw; }
+  .section_03 .sec_washing_machine_box .sec_colorchip_select .second_chip_btn:before { width:1.3889vw; height:1.3889vw; top:0; left:-1.8750vw; }
+  .section_03 .sec_washing_machine_box .sec_colorchip_select .second_chip_btn.black_chip:before { left:-1.6667vw; }
+  .section_03 .sec_washing_machine_box .sec_kit_select { text-align: center; padding: 2.0833vw 0; }
+  .section_03 .sec_washing_machine_box .sec_kit_select button { width:7.6389vw; height:2.2917vw; font-size:1.0417vw; letter-spacing: -0.0694vw; border-radius:0.3472vw; }
+  .section_03 .sec_washing_machine_box .sec_kit_select button.kit_btn_txt { border:0.0694vw solid #000; margin:0 0.6944vw 0 0;  }
+  .section_03 .sec_washing_machine_box .sec_kit_select button.contain_btn_txt { border:0.0694vw solid #ccc;}
+  .section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap { padding:0 1.7361vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap li:nth-child(2) { padding:0.7639vw 0 0.9722vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap li .sell_desc_text { font-size:1.0417vw;  }
+  .section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap li .price_txt { font-size:1.2500vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap li .sell_emphasis_text { font-size:1.0417vw; letter-spacing: -0.0347vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap li .price_emphasis_txt { font-size:1.2500vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap { border-radius:0.4167vw; margin:0 1.0417vw; padding: 1.0417vw 1.0417vw 0.8333vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap li { margin:0 0 0.4861vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap li .sell_desc_text { font-size:1.0417vw; letter-spacing: -0.0347vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap li .price_txt { font-size:1.2500vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap li .sell_emphasis_text { font-size:1.2500vw; letter-spacing: -0.0347vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap li .price_emphasis_txt { font-size:1.9444vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap li .price_emphasis_txt span { font-size:1.2500vw; letter-spacing: 0.0347vw; }
+  .section_03 .sec_washing_machine_box .sec_detail_btn_wrap { padding:2.2917vw 0 2.5000vw; }
+  .section_03 .sec_washing_machine_box .sec_detail_btn_wrap a { font-size:1.2500vw; letter-spacing: -0.0347vw;  }
+  .section_03 .sec_washing_machine_box .sec_detail_btn_wrap a:before { width:5.1389vw; height:0.0694vw; background:rgba(0,0,0,0.5); bottom:-0.2778vw; left:0; }
+  .section_03 .sec_washing_machine_box .sec_detail_btn_wrap button { width:11.1111vw; height:2.8472vw; font-size:1.2500vw; letter-spacing: -0.0174vw; border-radius:1.4236vw; }
+  .section_03 .sec_spec_select_btn_wrap { padding:12.3611vw 0 2.7778vw; }
+  .section_03 .sec_spec_select_btn_wrap a { font-size:1.1111vw; font-weight:700; letter-spacing: -0.0347vw; margin-right:6.2500vw; }
+  .section_03 .sec_spec_select_btn_wrap a:nth-child(3) { margin-right:0; }
+  .section_03 .sec_spec_select_btn_wrap a:before { width:0.6250vw; height:0.3472vw; background:url(../images/sec_03_under_arrow_pc.png) no-repeat; background-size:cover; top:0.2778vw; right:-1.3889vw; }
+  .section_03 .sec_spec_select_btn_wrap a:after { width:14.8611vw; height:0.1389vw; bottom:-0.3472vw; left:0; }
+
+  /* section_04 (삼성그랑데와 함께하는 슬기로운 집콕 생활) */
+  .section_04 { padding:8.3333vw 0 0; }
+  .section_04 .sec_title_txt_wrap .sec_logo_img_wrap { width:65.6944vw; }
+  .section_04 .sec_04_slide_wrap { padding:0 0 13.1944vw; }
+  .section_04 .slide_item_01 { padding-top:5.5556vw; }
+  .section_04 .slide_item_01 .sec_length_box { width:34.7222vw; margin:10.4167vw 14.5833vw 0 15.2778vw; }
+  .section_04 .slide_item_01 .sec_length_box:before { width:7.9167vw; height:34.7222vw; background:url(../images/sec_04_slide_01_01_pc.png) no-repeat; background-size:cover; top:-11.1111vw; left:-15.5278vw; }
+  .section_04 .slide_item_01 .sec_length_box .main_txt { font-size:8.3333vw; top:-4.8611vw; left:-10.0694vw; }
+  .section_04 .slide_item_01 .sec_length_box .sub_txt { font-size:2.9167vw; letter-spacing: -0.0347vw; bottom:5.9028vw; right:-11.2500vw; line-height: 1.2;}
+  .section_04 .slide_item_01 .sec_width_box { width:35.4167vw; }
+  .section_04 .slide_item_01 .sec_width_box:after { width:16.6667vw; height:21.5278vw; background:url(../images/sec_04_slide_01_04_pc.png) no-repeat; bottom:0; right:-16.6667vw; }
+  .section_04 .slide_item_01 .sec_width_box .sec_img_wrap { margin-bottom:6.2500vw; }
+  .section_04 .slide_item_01 .sec_width_box p { font-size:1.2500vw; letter-spacing: -0.0347vw; }
+  .section_04 .slide_item_02 .sec_care_content { padding:11.1111vw 0 0; }
+  .section_04 .slide_item_02 .sec_care_content:before { width:122.1528vw; height:26.3889vw; background:url(../images/sec_04_slide_02_bg_pc.png) no-repeat; background-size:cover; top:9.7222vw; left:-3.9583vw; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap { padding:4.1667vw 0 6.6667vw; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box { width:34.8611vw; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box:before { right: -5.8333vw; bottom: 0; width: 0; height: 0; border-left: 5.8333vw solid #d1f5ff; border-top: 9.0278vw solid transparent; border-bottom: 9.0278vw solid transparent; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process { padding:7.9861vw 0 3.1250vw; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process:before { width:10.0694vw; height:2.4306vw; background:url(../images/sec_04_slide_02_blue_logo_pc.png) no-repeat; background-size: cover; top:-1.3889vw; left:14.0972vw; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process li { letter-spacing: -0.0347vw; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process li strong { font-size:1.5278vw; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process li p { font-size:1.0417vw; margin-top:1.3889vw; line-height: 1.3; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process .wash_input { padding-left:4.0278vw;  }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process .wash_input:before { width:2.8472vw; height:3.6111vw; background:url(../images/sec_04_slide_02_icon_01_pc.png) no-repeat; background-size: cover; top:-5.0000vw; left:5.2083vw; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process .wash_laundry_rinse strong:before { top:0; lefT:0; width:3.5417vw; height:2.6389vw; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process .wash_laundry_rinse strong:nth-child(1):before { background:url(../images/sec_04_slide_02_icon_02_pc.png) no-repeat; background-size: cover; top:-4.3750vw; left:0.3472vw; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process .wash_laundry_rinse strong:nth-child(2) { margin-left: 3.3333vw; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process .wash_laundry_rinse strong:nth-child(2):before { background:url(../images/sec_04_slide_02_icon_03_pc.png) no-repeat; background-size: cover; top:-4.3750vw; left:6.2500vw; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .laundry_blue_box .wash_process .wash_dehydration:before { width:3.4028vw; height:2.9861vw; background:url(../images/sec_04_slide_02_icon_04_pc.png) no-repeat; background-size: cover; top:-4.3750vw; left:2.0833vw; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .dryer_beige_box { width: 16.1111vw; position: relative; margin-left: 0.4167vw; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .dryer_beige_box:before { left: 0; bottom: 0; width: 0; height: 0; border-left: 5.8333vw solid #fff; border-top: 9.0278vw solid transparent; border-bottom: 9.0278vw solid transparent;; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .dryer_beige_box:after { right: -5.8333vw; bottom: 0; width: 0; height: 0; border-left: 5.8333vw solid #fff5df; border-top: 9.0278vw solid transparent; border-bottom: 9.0278vw solid transparent; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .dryer_beige_box .wash_process { padding: 7.9861vw 0 0 6.6667vw; text-align: center; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .dryer_beige_box .wash_process:before { width:10.0694vw; height:2.4306vw; background:url(../images/sec_04_slide_02_beige_logo_pc.png) no-repeat; background-size:cover; top:-1.3889vw; right:-0.3472vw; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .dryer_beige_box .wash_process li strong { font-size:1.5278vw; position:relative; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .dryer_beige_box .wash_process li strong:before { width:3.3333vw; height:3.4722vw; background:url(../images/sec_04_slide_02_icon_05_pc.png) no-repeat; background-size:cover; top:-4.3750vw; left:-0.1389vw; }
+  .section_04 .slide_item_02 .sec_care_content .sec_ai_course_linkage .sec_laundry_drying_wrap .dryer_beige_box .wash_process li p { margin-top:1.3889vw; font-size: 1.0417vw; letter-spacing: -0.0347vw; }
+  .section_04 .slide_item_02 .sec_care_content .sec_clothing_care_desc h4 { font-size:2.9167vw; letter-spacing: -0.0347vw; padding-bottom: 2.7778vw; }
+  .section_04 .slide_item_02 .sec_care_content .sec_clothing_care_desc p { font-size:1.2500vw; letter-spacing: -0.0347vw; line-height: 1.2; }
+  .section_04 .slide_item_03 .sec_safe_clean_content { padding:8.1944vw 6.9444vw 0 11.8056vw; }
+  .section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_left { padding:20.1389vw 8.3333vw 0 0; }
+  .section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_left strong { font-size:11.1111vw; top:12.5000vw; left:-1.6667vw;}
+  .section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_left h3 { font-size:2.9167vw; letter-spacing: -0.0347vw; margin:0 0 3.6111vw; }
+  .section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_left p { font-size:1.2500vw; letter-spacing: -0.0347vw; }
+  .section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order { display:flex; }
+  .section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order li { width:24.3056vw; height:40.7639vw; padding:2.0833vw 1.3889vw; }
+  .section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order li h4 { font-size:1.6667vw; letter-spacing: -0.0347vw; }
+  .section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order li > p { font-size:1.2500vw; letter-spacing: -0.0347vw; line-height:1.3; padding: 1.0417vw 0 1.5972vw; }
+  .section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_01 { margin-right:1.3889vw; }
+  .section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_01 .clothing_clean_img_top .img_wrap { padding:0 0 1.0417vw; }
+  .section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_01 .clothing_clean_img_top p { padding:0.8333vw 0 1.3889vw; }
+  .section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_01 .clothing_clean_img_bottom .img_wrap { padding:0 0 1.0417vw; }
+  .section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_01 strong { font-size:1.2500vw; letter-spacing: -0.0347vw; }
+  .section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_01 p { font-size:0.9028vw; letter-spacing: -0.0347vw; }
+  .section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_02 { margin-right:1.3889vw; }
+  .section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_02 .device_clean_img_top { padding:0 0 1.1111vw; }
+  .section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_03 .space_clean_img_area { padding:0 0 1.1111vw; }
+  .section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_03 strong { font-size:1.2500vw; letter-spacing: -0.0347vw; }
+  .section_04 .slide_item_03 .sec_safe_clean_content .sec_clean_right .management_order .management_order_list_03 p { font-size:0.9028vw; letter-spacing: -0.0347vw; }
+  .section_04 .swiper-button-prev { top:58.3333vw; left:21.5278vw; width:1.0417vw; height:1.8056vw; }
+  .section_04 .swiper-button-prev:after { font-size:1.0417vw; }
+  .section_04 .swiper-button-next { top:58.3333vw; left:74.9722vw; width:1.0417vw; height:1.8056vw; }
+  .section_04 .swiper-button-next:after { font-size:1.0417vw; }
+  .section_04 .swiper-pagination { bottom:5.9722vw; }
+  .section_04 .swiper-pagination .swiper-pagination-bullet { font-size:1.2500vw; font-weight:700; letter-spacing: -0.0347vw; margin-right:3.1944vw; }
+  .section_04 .swiper-pagination .swiper-pagination-bullet:after { bottom:-0.8333vw; left:50%; width:0%; height:0.2083vw;  }
+  .section_04 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active:after { left:0; width:100%;  }
+
+  /* section_05 (30만 포인트로 살 수 있는 제품) */
+  .section_05 { padding:7.2917vw 0 6.5278vw; }
+  .section_05 .sec_title_txt_wrap p { font-size:1.5278vw; letter-spacing: -0.0347vw; }
+  .section_05 .sec_title_txt_wrap h2 { font-size:3.8889vw; letter-spacing: -0.0347vw; padding: 1.3889vw 0 3.4722vw; }
+  .section_05 .sec_05_slide_wrap { width:88.8889vw; }
+  .section_05 .sec_inner .swiper-button-prev {  left:0.9028vw; width:1.6667vw; height:3.2639vw; }
+  .section_05 .sec_inner .swiper-button-next { transform:translateY(-50%); right:0.9028vw; width:1.6667vw; height:3.2639vw; }
+
+  /* section_06 (BESPOKE로 만나보세요) */
+  .section_06 { padding:7.5000vw 0 10.2778vw; }
+  .section_06 .sec_title_txt_wrap { letter-spacing: -0.0347vw; }
+  .section_06 .sec_title_txt_wrap p { font-size:1.5278vw; }
+  .section_06 .sec_title_txt_wrap h2 { font-size:3.8889vw; padding:1.5278vw 0 2.7778vw; }
+  .section_06 .sec_06_slide_wrap .swiper-button-prev { top:28.2639vw; left:1.3889vw; width:4.1667vw; height:4.1667vw; background:url(../images/sec_06_arrow_prev_pc.png) no-repeat; background-size:cover; }
+  .section_06 .sec_06_slide_wrap .swiper-button-next { top:28.2639vw; right:1.3889vw; width:4.1667vw; height:4.1667vw; background:url(../images/sec_06_arrow_next_pc.png) no-repeat; background-size:cover; }
+  .section_06 .swiper-pagination { bottom:7.6389vw; }
+  .section_06 .swiper-pagination .swiper-pagination-bullet { width:5.5556vw; height:0.1389vw; margin:0; }
+  .section_06 .swiper-pagination .swiper-pagination-bullet:nth-child(1) { margin-right:1.1111vw; }
+  .section_06 .swiper-pagination .swiper-pagination-bullet-active { background:#000; }
+
+  /* footer */
+  .footer { padding:4.8611vw 0; }
+  .footer .sec_inner { padding-left: 5.5556vw; }
+  .footer .sec_inner .left_area { margin: 0 11.1111vw 0 5.5556vw; }
+  .footer .left_area p { font-size:1.2500vw;  letter-spacing: -0.0174vw; }
+  .footer .right_area .right_area_txt li {  font-size:1.2500vw;  }
+  .footer .right_area .right_area_txt li { padding:0 0 1.1111vw 1.0417vw; }
+  .footer .right_area .right_area_txt li:last-child { padding-bottom:0; }
+  .footer .right_area .right_area_txt li:before { width:0.3472vw; height:0.3472vw; top:0.3472vw; lefT:0; }
+}
+
+@media screen and ( max-width:768px ) {
+
+  /* section_01 (메인 kv)  */
+  .section_01 { background:url(../images/sec_01_kv_mo.png) no-repeat center / cover; width:100%; height:133.3333vw; }
+  .section_01 .sec_main_kv_txt_wrap { padding: 12.5000vw 0 0; text-align: center; }
+  .section_01 .sec_main_kv_txt_wrap h2 { font-size:4.1667vw; letter-spacing: -0.0694vw; }
+  .section_01 .sec_img_wrap { padding:3.6111vw 0 5.2778vw; width:80.5556vw; margin:0 auto;  }
+  .section_01 .sec_img_wrap img { margin:0 auto; width:100%; }
+  .section_01 .sec_reservation_txt { padding:0 0 5.5556vw; font-size:4.1667vw; letter-spacing: -0.0694vw; line-height: 1.4; font-weight:400; }
+  .section_01 .sec_duration_txt { font-size:3.3333vw; letter-spacing: -0.0694vw;}
+  
+  /* section_02 (삼성닷컴 단독 예약 판매 혜택) */
+  .section_02 { padding:11.6667vw 0 13.8889vw; }
+  .section_02 .sec_title_txt_wrap h2 { font-size:8.0556vw; letter-spacing: -0.1389vw;}
+  .section_02 .sec_delivery_txt { display:block; padding:28px 0 70px; }
+  .section_02 .sec_delivery_txt > span { display:none; }
+  .section_02 .sec_delivery_txt li { font-size:26px; letter-spacing: -0.5px; }
+  .section_02 .sec_delivery_txt li:first-child {margin: 0 0 20px; }
+  .section_02 .sec_two_box_wrap { width:100%; padding:0 5.5556vw; box-sizing: border-box; }
+  .section_02 .sec_samsung_dotcom_box { flex-direction: column-reverse; border-radius:2.2222vw; }
+  .section_02 .sec_samsung_dotcom_box:before { top:-4.0278vw; left:5.5556vw; background:url(../images/sec_02_dotcom_badge_mo.png) no-repeat; background-size: cover; width:14.1667vw; height:14.1667vw; z-index:2; }
+  .section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap { padding:5.9722vw 6.3889vw 7.3611vw 7.7778vw; }
+  .section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap .sec_laundry_txt { font-size:3.6111vw; padding:0 0 3.6111vw; letter-spacing: -0.0694vw; }
+  .section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap p  { font-size:5.5556vw; letter-spacing: -0.0694vw; }
+  .section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap .sec_kitty_logo { width:51.5278vw; margin: 1.3889vw 0 1.6667vw; }
+  .section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap .link_area { padding:5.5556vw 0 0; }
+  .section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap .link_area a { font-size:2.3611vw; letter-spacing: -0.0694vw; }
+  .section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap .link_area a:before { width:1.9444vw; height:1.9444vw; background:url(../images/sec_02_online_arrow_pc.png) no-repeat; background-size:cover; bottom:0.4167vw; right:-2.7778vw; }
+  .section_02 .sec_samsung_dotcom_box .sec_feature_txt_wrap .link_area a:after { width:18.6111vw; height:0.2778vw; bottom:-1.1111vw; left:0; }
+  .section_02 .sec_samsung_dotcom_box .slide_right_area_wrap { width:83.3333vw; margin: 2.7778vw auto 0; border-radius:0 1.1111vw 1.1111vw 0;}
+  .section_02 .sec_samsung_dotcom_box .slide_right_area_wrap .swiper-pagination { width:28.0556vw; height:5.0000vw; background:rgba(0,0,0,0.5); border-radius:2.4431vw; bottom:2.7778vw; left:50%; transform:translateX(-50%); }
+  .section_02 .sec_samsung_dotcom_box .slide_right_area_wrap .swiper-pagination .swiper-pagination-bullet { width:1.8056vw; height:1.8056vw; margin:1.6667vw 2.7778vw 0 0; }
+  .section_02 .sec_samsung_dotcom_box .slide_right_area_wrap .swiper-pagination .swiper-pagination-bullet:last-child { margin:0;}
+  .section_02 .sec_benefit_box { padding:6.6667vw 0 0; }
+  .section_02 .sec_benefit_box li { width:66.6667vw !important; margin-right: 2.7778vw; }
+  .section_02 .sec_benefit_box li .sec_benefit_desc_wrap { padding:4.1667vw 0 0 5.5556vw; letter-spacing: -0.0694vw; }
+  .section_02 .sec_benefit_box li .sec_benefit_desc_wrap .if_txt { font-size:3.6111vw; }
+  .section_02 .sec_benefit_box li .sec_benefit_desc_wrap strong { font-size: 4.4444vw; padding:3.4722vw 0 4.1667vw; }
+  .section_02 .sec_benefit_box li .sec_benefit_desc_wrap .link_area a { font-size:3.6111vw; position:relative; }
+  .section_02 .sec_benefit_box li .sec_benefit_desc_wrap .refer_txt { font-size:3.1944vw; color:#888; }
+  .section_02 .sec_benefit_box li.item_01 .sec_benefit_desc_wrap .link_area a:before { width:1.2500vw; height:2.2222vw; background:url(../images/sec_02_benefit_box_01_arrow_mo.png) no-repeat; background-size:cover; top:1.2500vw; right:-1.9444vw; }
+  .section_02 .sec_benefit_box li.item_01 .sec_benefit_desc_wrap .link_area a:after { background:#000; width:41.8056vw; height:0.4167vw; margin:0.8333vw 0 0; }
+  .section_02 .sec_benefit_box li.item_03 .sec_benefit_desc_wrap .link_area a { letter-spacing: -0.2222vw;}
+  .section_02 .sec_benefit_box li.item_03 .sec_benefit_desc_wrap .link_area a:after { background:#000; width:43.0556vw; height:0.4167vw; margin:1.1111vw 0 0; }
+  .section_02 .sec_benefit_box li.item_03 .sec_benefit_desc_wrap .refer_txt { padding:0 0 4.1667vw; }
+  .section_02 .sec_two_box_wrap .link_caution_area { padding:11.1111vw 0 0; }
+  .section_02 .sec_two_box_wrap .link_caution_area a { font-size:3.6111vw; letter-spacing: -0.0694vw; }
+  .section_02 .sec_two_box_wrap .link_caution_area a:before {  width:1.2500vw; height:0.6944vw; background:url(../images/sec_02_caution_arrow_pc.png) no-repeat; background-size:cover; top:2.0833vw; right: -1.8056vw; }
+  .section_02 .sec_two_box_wrap .link_caution_area a:after { background:#000; width:27.3611vw; height:0.2778vw; bottom:-0.6944vw; left:0; }
+
+  /* section_03 (삼성그랑데를 만나보세요) */
+  .section_03 { background:url(../images/sec_03_bg_mo.png) no-repeat; background-size:cover; }
+  .section_03 .sec_title_txt_wrap { padding:13.1944vw 0 0; }
+  .section_03 .sec_title_txt_wrap h2 { font-size:4.1667vw; }
+  .section_03 .sec_title_txt_wrap .sec_img_wrap { width:76.5278vw; padding: 3.0556vw 0 10.2778vw; }
+  .section_03 .sec_washing_machine_info_wrap { flex-direction: column; padding: 0 5.5556vw; }
+  .section_03 .sec_washing_machine_info_wrap:before { width:32.2222vw; height:86.3889vw; background:url(../images/sec_03_black_laundry_mo.png) no-repeat; background-size:cover; top:3.0556vw; left:8.6111vw; }
+  .section_03 .sec_washing_machine_info_wrap:after { width:32.2222vw; height:86.9444vw; background:url(../images/sec_03_white_laundry_mo.png) no-repeat; background-size:cover; top:109.0278vw; right:59.1667vw; }
+  .section_03 .sec_washing_machine_info_wrap .sec_washing_machine_box { width:46.6667vw; padding:5.5556vw 0 0; }
+  .section_03 .sec_washing_machine_info_wrap .sec_left_washing_machine_info_box { border-radius:2.2222vw 0 2.2222vw 2.2222vw; margin:0 0 9.7222vw auto; }
+  .section_03 .sec_washing_machine_info_wrap .sec_left_washing_machine_info_box:before { width:16.1111vw; height:5.5556vw; background:url(../images/sec_03_dotcom_badge_mo.png) no-repeat; background-size:cover; top:-1.5278vw; left:28.6111vw; }
+  .section_03 .sec_washing_machine_info_wrap .sec_left_washing_machine_info_box:after { display:none; }
+  .section_03 .sec_washing_machine_info_wrap .sec_right_washing_machine_info_box { border-radius:2.2222vw 0 2.2222vw 2.2222vw; margin-left:auto; }
+  .section_03 .sec_washing_machine_info_wrap .sec_right_washing_machine_info_box:after { display:none; }
+  .section_03 .sec_washing_machine_box .sec_model_title { font-size:3.7500vw; }
+  .section_03 .sec_washing_machine_box .sec_model_code { font-size:2.5000vw; padding: 3.0556vw 0 4.5833vw; }
+  .section_03 .sec_washing_machine_box .sec_colorchip_select { display:block; margin:0 9.1667vw 0 16.1111vw; }
+  .section_03 .sec_washing_machine_box .sec_colorchip_select button { font-size:2.7778vw; letter-spacing: -0.2778vw; }
+  .section_03 .sec_washing_machine_box .sec_colorchip_select .first_chip_btn.black_chip { margin-right:5.0333vw; }
+  .section_03 .sec_washing_machine_info_wrap .sec_right_washing_machine_info_box .sec_colorchip_select { margin:0 9.1667vw 0 16.1111vw; }
+  .section_03 .sec_washing_machine_box .sec_colorchip_select button.active:before { width:5.5556vw; height:5.6944vw; top:-0.9722vw; left:-6.9444vw; border: 0.1389vw solid #666; }
+  .section_03 .sec_washing_machine_box .sec_colorchip_select button.active:after { width:3.7500vw; height:3.7500vw; top:0; left:-5.9722vw; }
+  .section_03 .sec_washing_machine_box .sec_colorchip_select .second_chip_btn:before { width:3.7500vw; height:3.7500vw; top:0; left:-4.5833vw; }
+  .section_03 .sec_right_washing_machine_info_box .sec_colorchip_select .first_chip_btn.gray_chip { margin-right:5.0333vw; }
+  .section_03 .sec_right_washing_machine_info_box .sec_colorchip_select .second_chip_btn.black_chip:before { left:-4.5833vw; }
+  .section_03 .sec_washing_machine_box .sec_kit_select { padding:4.8611vw 0 4.4444vw; }
+  .section_03 .sec_washing_machine_box .sec_kit_select button { width:18.0556vw; height:6.1111vw; font-size:2.7778vw; letter-spacing: -0.5778vw; border-radius:0.6944vw; }
+  .section_03 .sec_washing_machine_box .sec_kit_select button.kit_btn_txt { margin:0 2.0833vw 0 0; }
+  .section_03 .sec_washing_machine_box .sec_kit_select button.contain_btn_txt { background:#fff; color:#666; border:0.1389vw solid #ccc;}
+  .section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap { padding:0 2.7778vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap li { display:flex; justify-content: space-between; }
+  .section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap li:nth-child(2) { padding:2.0833vw 0 4.0278vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap li .sell_desc_text { font-size:2.5000vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap li .price_txt { font-size:3.0556vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap li .sell_emphasis_text { font-size:2.5000vw; letter-spacing: -0.0694vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .dotcom_sell_desc_wrap li .price_emphasis_txt { font-size:3.0556vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap { border-radius:0.8333vw; margin:0 2.5000vw; padding: 2.0833vw 1.9444vw 2.2222vw 1.3889vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap li { margin:0 0 1.9444vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap li .sell_desc_text { font-size:2.5000vw; letter-spacing: -0.0694vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap li .price_txt { font-size:3.0556vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap li .sell_emphasis_text { font-size:2.7778vw; letter-spacing: -0.0694vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap li .price_emphasis_txt { font-size:3.8889vw; }
+  .section_03 .sec_washing_machine_box .sec_price_info .final_sell_desc_wrap li .price_emphasis_txt span { font-size:2.7778vw; letter-spacing: 0.0694vw; }
+  .section_03 .sec_washing_machine_box .sec_detail_btn_wrap { padding:3.3333vw 0 6.1111vw; }
+  .section_03 .sec_washing_machine_box .sec_detail_btn_wrap a { font-size:3.0556vw; letter-spacing: -0.0694vw; }
+  .section_03 .sec_washing_machine_box .sec_detail_btn_wrap a:before { width:12.7778vw; height:0.4167vw; background:rgba(0,0,0,0.3); bottom:-0.6944vw; left:0; }
+  .section_03 .sec_washing_machine_box .sec_detail_btn_wrap button { width:24.8611vw; height:7.9167vw; font-size:3.0556vw; font-weight:700; letter-spacing: -0.0347vw; border-radius:3.8889vw; }
+  .section_03 .sec_spec_select_btn_wrap { padding:8.6111vw 0 10.0000vw; text-align: center; }
+  .section_03 .sec_spec_select_btn_wrap a { display:block; font-size:3.6111vw; font-weight:700; letter-spacing: -0.1389vw; position:relative; margin-right:0; margin-bottom:5.5556vw; }
+  .section_03 .sec_spec_select_btn_wrap a:nth-child(3) { margin-right:0; margin-bottom:0; }
+  .section_03 .sec_spec_select_btn_wrap a:before { width:1.8056vw; height:0.9722vw; background:url(../images/sec_03_under_arrow_mo.png) no-repeat; top: 1.3889vw; right: 25.2778vw; }
+  .section_03 .sec_spec_select_btn_wrap a:after { width:45.8333vw; height:0.2778vw; bottom:-1.2500vw; left:28.6111vw }
+
+  /* section_04 (삼성그랑데와 함께하는 슬기로운 집콕 생활)  */
+  .section_04 { padding:15.5556vw 0 0; }
+  .section_04 .sec_title_txt_wrap .sec_logo_img_wrap { width:69.1667vw; }
+  .section_04 .sec_04_slide_wrap { padding:0 0 37.0833vw; }
+  .section_04 .sec_04_slide_wrap .slide_area .slide_item.swiper-slide-prev { overflow:hidden; }
+  .section_04 .sec_04_slide_wrap .slide_area .slide_item.swiper-slide-next { visibility:hidden; }
+  .section_04 .slide_item_01 { padding-top:25.0000vw; }
+  .section_04 .slide_item_01 .sec_flexible_content { flex-direction: column; margin:0 9.7222vw 0 17.3611vw; }
+  .section_04 .slide_item_01 .sec_flexible_content:before { content:''; display:block; width:17.5000vw; height:32.7778vw; background:url(../images/sec_04_slide_01_03_mo.png) no-repeat; background-size:cover; position:absolute; top:11.1111vw; right:0; }
+  .section_04 .slide_item_01 .sec_length_box { width:48.6111vw; position:relative; margin:0; }
+  .section_04 .slide_item_01 .sec_length_box:before { display:none; }
+  .section_04 .slide_item_01 .sec_length_box .main_txt { font-size:12.5000vw; top:-6.9444vw; left:-9.4444vw; }
+  .section_04 .slide_item_01 .sec_length_box .sub_txt { font-size:5.8333vw; letter-spacing: -0.0694vw; position:absolute; bottom:11.8056vw; right:-22.5000vw; line-height: 1.2;}
+  .section_04 .slide_item_01 .sub_txt { font-size:5.8333vw; letter-spacing: -0.0347vw; line-height: 1.2; padding:5.0000vw 0; }
+  .section_04 .slide_item_01 .sec_width_box { width:70.8333vw; position:relative; }
+  .section_04 .slide_item_01 .sec_width_box:after { display:none; }
+  .section_04 .slide_item_01 .sec_width_box p { font-size:3.8889vw; letter-spacing: -0.2778vw; color:#555; line-height:1.4; }
+  .section_04 .swiper-button-prev { display:none; }
+  .section_04 .swiper-button-next { display:none; }
+  .section_04 .swiper-pagination { bottom:20.8333vw; }
+  .section_04 .swiper-pagination .swiper-pagination-bullet { font-size:3.3333vw;letter-spacing: -0.0694vw; position: relative; margin:0 5.8333vw 0 0; }
+  .section_04 .swiper-pagination .swiper-pagination-bullet:nth-child(3) { margin-right:0; }
+  .section_04 .swiper-pagination .swiper-pagination-bullet:after { content:''; position:absolute; bottom:-1.6667vw; left:50%; width:0%; height:0.4167vw; }
+
+  /* section_05 (30만 포인트로 살 수 있는 제품) */
+  .section_05 { padding: 16.9444vw 0 16.6667vw 0; }
+  .section_05 .sec_title_txt_wrap { text-align: left; padding-left:11.1111vw; }
+  .section_05 .sec_title_txt_wrap p { font-size:3.8889vw; letter-spacing: -0.0694vw; }
+  .section_05 .sec_title_txt_wrap h2 { font-size: 8.0556vw; letter-spacing: -0.4167vw; padding: 4.1667vw 2.7778vw 8.5222vw 0; }
+  .section_05 .sec_05_swiperslide_add_wrap { margin-left: 11.1111vw; }
+  .section_05 .sec_05_slide_wrap { width:100%; }
+  .section_05 .sec_05_slide_wrap .slide_area li { width:65.2778vw !important; margin-right:6.9444vw !important; }
+  .section_05 .sec_inner .swiper-button-prev { display:none; }
+  .section_05 .sec_inner .swiper-button-next { display:none; }
+
+  /* section_06 (BESPOKE로 만나보세요) */
+  .section_06 { padding:13.0556vw 4.1667vw 20.0000vw; }
+  .section_06 .sec_title_txt_wrap { letter-spacing: -0.0694vw; }
+  .section_06 .sec_title_txt_wrap p { font-size:3.8889vw; }
+  .section_06 .sec_title_txt_wrap h2 { font-size:8.0556vw; padding:3.0556vw 0 9.7222vw; }
+  .section_06 .sec_06_slide_wrap .swiper-button-prev { display:none; }
+  .section_06 .sec_06_slide_wrap .swiper-button-next { display:none; }
+  .section_06 .swiper-pagination { bottom:12.6389vw; }
+  .section_06 .swiper-pagination .swiper-pagination-bullet { width:16.8056vw; height:0.8333vw; }
+  .section_06 .swiper-pagination .swiper-pagination-bullet:nth-child(1) { margin-right:4.1667vw;}
+  .section_06 .swiper-pagination .swiper-pagination-bullet-active { background:#000; }
+
+  /* footer */
+  .footer { padding:13.8889vw 0; }
+  .footer .sec_inner { display:block; padding-left: 0; }
+  .footer .sec_inner .left_area { margin:0; }
+  .footer .left_area p { font-size:3.3333vw; letter-spacing: -0.0347vw; padding:0 0 4.1667vw 5.5556vw; }
+  .footer .right_area .right_area_txt li { font-size:3.3333vw; margin:0 5.5556vw 2.7778vw; padding:0 0 0 2.2222vw; letter-spacing: -0.1347vw; }
+  .footer .right_area .right_area_txt li:first-child { line-height:1.6; }
+  .footer .right_area .right_area_txt li:before { width:0.8333vw; height:0.8333vw; border-radius:0; top:1.3889vw; lefT:0; }
+  .footer .right_area .right_area_txt li:first-child:before { top:2.3611vw; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
